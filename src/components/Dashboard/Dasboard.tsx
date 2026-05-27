@@ -244,7 +244,7 @@ function ResultCard({
   );
 }
 
-// ─── Panels ───────────────────────────────────────────────────────────────────
+// panel
 
 function GeneratePanel({ onAdd }: { onAdd: (i: GalleryItem) => void }) {
   const [prompt, setPrompt] = useState("");
@@ -301,7 +301,7 @@ function GeneratePanel({ onAdd }: { onAdd: (i: GalleryItem) => void }) {
       </div>
 
       <div>
-        <Label>Prompt</Label>
+        <Label> Your Prompt</Label>
         <textarea
           rows={4}
           placeholder="A misty mountain range at golden hour, photorealistic, 8K..."
